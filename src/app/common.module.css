@@ -1,0 +1,90 @@
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.slideIn {
+  transform: translateY(0);
+  transition: 0.2s ease-in;
+}
+
+.slideOut {
+  height: 0;
+  transform: translateY(-100%);
+  transition: 0.2s ease-out;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto 0;
+  margin-left: 3.88rem;
+  background-color: #4D4D4D4C;
+  border-radius: 0.5625rem;
+  padding: var(--p-content);
+  font-size: var(--fz-heading-l);
+  font-weight: 700;
+
+  @media screen and (max-width: 834px) {
+    padding: 0.62rem;
+    margin: auto 1.25rem;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover:not(:disabled) {
+  transform: translateY(0.5px);
+  transition: 0.1s ease-in-out;
+}
+
+.clickable:active:not(:disabled) {
+  transform: translateY(1.5px);
+  transition: 0.1s ease-in-out
+}
+
+.disconnect:hover {
+  background-color: #FF4422;
+  font-weight: 700;
+}
+
+.connect:hover {
+  background-color: #178ab7;
+  font-weight: 700;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
