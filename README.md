@@ -124,7 +124,7 @@ Learn more about deployment in the [Next.js documentation](https://nextjs.org/do
 
 ## Development & Management Teams
 
-- **Development Team**: For technical inquiries, reach out to [dev-team@example.com](mailto:dev-team@example.com).
-- **Management Team**: For management-related concerns, contact [management-team@example.com](mailto:management-team@example.com).
+- **Development Team**: For technical inquiries, reach out to [dev-team@tern.ac](mailto:dev-team@tern.ac).
+- **Management Team**: For management-related concerns, contact [management-team@tern.ac](mailto:management-team@tern.ac).
 
 ---
